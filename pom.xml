@@ -8,18 +8,6 @@
      <artifactId>HelloWorld</artifactId>
      <packaging>war</packaging>
      <version>1.0-SNAPSHOT</version>
-
-  <properties>
-  <sonar.host.url>http://3.110.148.231:9000</sonar.host.url>
-  <sonar.login>e35e50fa5c4e8fa064c99d951fead9b0df924ba6</sonar.login>
-  <sonar.language>java</sonar.language>
-  <sonar.scm.provider>git</sonar.scm.provider>
-</properties>
-<plugin>
-  <groupId>org.sonarsource.scanner.maven</groupId>
-  <artifactId>sonar-maven-plugin</artifactId>
-  <version>3.2</version>
-</plugin>
  
      <build>
          <finalName>HelloWorld</finalName>
